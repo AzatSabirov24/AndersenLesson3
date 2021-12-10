@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndersenLesson3</string>
+    <string name="btn_country_flags_text">Country Flags</string>
+    <string name="text_tv_austria">Austria</string>
+    <string name="text_tv_poland">Poland</string>
+    <string name="text_tv_italy">Italy</string>
+    <string name="text_tv_columbia">Columbia</string>
+    <string name="text_tv_madagascar">Madagascar</string>
+    <string name="text_tv_thailand">Thailand</string>
+    <string name="text_tv_denmark">Denmark</string>
+    <string name="text_tv_switzerland">Switzerland</string>
+    <string name="et_take_picture_hint">Enter A Link</string>
+    <string name="text_btn_picture_glide_activity">Take a picture with Glide</string>
+    <string name="text_btn_picture_android_activity">Take a picture with Android</string>
+    <string name="text_btn_take_picture">Take a picture</string>
+    <string name="text_et_take_picture">https://picsum.photos/id/237/200/300</string>
+    <string name="image_description">image from https://picsum.photos/</string>
+</resources>

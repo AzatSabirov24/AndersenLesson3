@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_act_main"
+    android:padding="@dimen/padding_default"
+    tools:context=".AndroidPictureActivity">
+
+    <ImageView
+        android:id="@+id/iv_picture"
+        android:layout_width="@dimen/width_image"
+        android:layout_height="@dimen/height_image"
+        android:contentDescription="@string/image_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/et_take_picture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_default"
+        android:layout_marginBottom="@dimen/margin_default_half"
+        android:ems="10"
+        android:hint="@string/et_take_picture_hint"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/text_et_take_picture"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btn_take_picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_picture"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/btn_take_picture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background_default_btn"
+        android:text="@string/text_btn_take_picture"
+        android:textSize="@dimen/text_size_tv_country"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
